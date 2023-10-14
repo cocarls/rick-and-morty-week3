@@ -26,7 +26,7 @@ const Location = ({location, setLocation}) => {
       
     <div className="grid justify-center">
     <form onSubmit={handleSubmit} className="flex mb-10  border-solid border-2 border-green-500 justify-center w-[320px] max-sm:w-[280px] ">
-       <input placeholder="Type a location Id..." name="idLocation" className="text- bg-black/10 flex p-2" type="number" required/>
+       <input placeholder="Type a location Id..." name="idLocation" className="text- bg-black/10 flex p-2 outline-none" type="number" required/>
        <button type="submit" className="flex gap-2 items-center"> 
        <IconSearch className="" size={18}/> </button>
     </form>
