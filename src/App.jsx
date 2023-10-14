@@ -19,7 +19,7 @@ function App() {
   
 
   return (
-    <main className='px-4 min-h-screen bg-black text-white grid gap-20 bg-[url("/fondofondo.jpg")] bg-cover bg-center '>
+    <main className='px-4 h-screen bg-black text-white grid gap-20 bg-[url("/fondofondo.jpg")] bg-cover bg-center overflow-y-auto'>
        
       <Location location={location} setLocation={setLocation}/>
       <ResidentList residents={location?.residents ?? []}/>
